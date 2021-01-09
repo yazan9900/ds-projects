@@ -1,6 +1,6 @@
 # ds-projects
 
 ## HTU Training 
-- Data Science Training projects
+- Data Science Practicing projects
 
 #### Yazan Alhroob
