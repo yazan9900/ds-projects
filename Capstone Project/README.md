@@ -31,6 +31,16 @@ It built using reviews with 1 or 2 stars and 4 or 5 stars:
 
 The objective of this project is to build a classifier using this data set to obtain high accuracy of classifying the sentiment of a product review, is it **positive** or **negative**
 
+
+## Conclusion
+
+In the table below are the accuracy results got by each vectorizer and classifier as a study casse to compare these results together.
+
+The winner methodology in my work is using:
+   - Hashing Vectorizer with n-grams (1,2) and:
+       - Stochastic Gradient Descent Classifier
+       - Linear Support Vector Classifier
+
 **Note:**
 * This notebook `Capstone.ipynb` contains these steps:
     - Data reading
