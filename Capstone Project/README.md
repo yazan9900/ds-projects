@@ -73,6 +73,15 @@ The winner methodology in my work is using:
    - Hashing Vectorizer with n-grams (1,2) and:
        - Stochastic Gradient Descent Classifier
        - Linear Support Vector Classifier
+       
+       
+| Vect\Model| Logistic Regression       | SGDC    | LinearSVC     | DNN   | Embedding Layer NN |
+|:------------- | :------------- | :----------: | -----------: | -----------: | -----------: |
+| Hash Vectorizrer (ngrams = 1,1) | 0.8902 | 0.8962   | 0.8976    |     0.8981     | - |
+| Hash Vectorizrer (ngrams = 1,2) | 0.9139 | 0.9227 | 0.9227    |     0.9089    | - |
+| Hash Vectorizrer (ngrams = 1,3) | 0.9122 | 0.9200 | 0.9183    |     0.9011    | - |
+| TFIDF Vectorizrer (ngrams = 1,2) | 0.9179 | 0.9182 | 0.9183    |    0.9152     | - |
+| Pad sequencer (4 Million) | - | - | -    |    -     | 0.8968 |
 
 
 **Done By:** Yazan Alhroob
